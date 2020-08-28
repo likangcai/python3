@@ -1,0 +1,31 @@
+2020-08-27 13:57:24,664 - __main__ - INFO - Start print log
+2020-08-27 13:57:24,664 - __main__ - WARNING - Something maybe fail.
+2020-08-27 13:57:24,665 - __main__ - INFO - Finish
+2020-08-27 14:00:34,126 - __main__ - INFO - Start print log
+2020-08-27 14:00:34,126 - __main__ - WARNING - Something maybe fail.
+2020-08-27 14:00:34,126 - __main__ - INFO - Finish
+2020-08-27 14:03:30,185 - __main__ - INFO - Start print log
+2020-08-27 14:03:30,209 - __main__ - WARNING - Something maybe fail.
+2020-08-27 14:03:30,209 - __main__ - INFO - Finish
+2020-08-27 14:17:54,573 - __main__ - INFO - Start print log
+2020-08-27 14:17:54,573 - __main__ - WARNING - Something maybe fail.
+2020-08-27 14:17:54,573 - __main__ - INFO - Finish
+2020-08-27 14:27:36,928 - __main__ - INFO - Start print log
+2020-08-27 14:27:36,928 - __main__ - WARNING - Something maybe fail.
+2020-08-27 14:27:36,929 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "H:/github/python3/学习笔记/模块笔记/class_logging.py", line 151, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2020-08-27 14:27:36,975 - __main__ - INFO - Finish
+2020-08-27 14:27:59,606 - __main__ - INFO - Start print log
+2020-08-27 14:27:59,606 - __main__ - WARNING - Something maybe fail.
+2020-08-27 14:27:59,606 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "H:/github/python3/学习笔记/模块笔记/class_logging.py", line 151, in <module>
+    open("log1.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'log1.txt'
+2020-08-27 14:27:59,606 - __main__ - INFO - Finish
+2020-08-27 14:28:52,379 - __main__ - INFO - Start print log
+2020-08-27 14:28:52,379 - __main__ - WARNING - Something maybe fail.
+2020-08-27 14:28:52,471 - __main__ - INFO - Finish
